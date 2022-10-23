@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hammersmith+One&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Passions+Conflict&family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.full {
+    width: 70%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.full img{
+    border-radius: 100%;
+}
+.left {
+    position: initial;
+    background-color: #383838;
+    padding: 20px;
+
+ 
+}
+.right {
+    position: initial;
+    background-color: #066163;
+    padding: 20px;
+ 
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+    margin-bottom: 30px;
+}
+.h2 {
+    background-color: rgb(4, 96, 150);
+}
+b{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    word-spacing: .1rem;
+}
+h4{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 1.5rem;
+    padding: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    margin: 1rem;
+}
+h1::first-letter{
+    color: #FF5858;
+    font-size: 3rem;
+}
+h4::first-line{
+    color: #D8D9CF;
+    opacity: .4;
+}
+li{
+   margin: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
